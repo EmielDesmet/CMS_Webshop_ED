@@ -1,0 +1,23 @@
+uuid: c560bd71-2b5b-46ba-8d01-6bd4c6892f5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: commerce_bootstrap_syndicate
+theme: commerce_bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

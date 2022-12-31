@@ -1,0 +1,20 @@
+uuid: 9a1f2e3d-c37d-4c39-afe8-8fd2c637be33
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+id: commerce_product.field_fabrikant1
+field_name: field_fabrikant1
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

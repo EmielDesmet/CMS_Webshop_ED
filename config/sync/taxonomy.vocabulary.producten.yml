@@ -1,0 +1,8 @@
+uuid: 2e418b2a-6bc5-4795-9918-a16000836b9f
+langcode: en
+status: true
+dependencies: {  }
+name: ProductenTags
+vid: producten
+description: ''
+weight: 0

@@ -1,0 +1,24 @@
+uuid: 68c076e7-9ad5-43f5-8606-1d58f3c7ee41
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - belgrade
+_core:
+  default_config_hash: orSxR8gn7umdR1c6gwf974l_423iO55PL0tkHpOWRhw
+id: belgrade_shopping_cart
+theme: belgrade
+region: top_navigation
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  item_text: items
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 4f71435a-404d-4a51-af73-689175947f82
+langcode: en
+status: true
+dependencies: {  }
+id: streekbieren
+label: Streekbieren
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

@@ -1,0 +1,20 @@
+uuid: 4ae45c73-d40e-46ec-ac64-2a2525ece2b8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: commerce_bootstrap_primary_admin_actions
+theme: commerce_bootstrap
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: c97503d5-da5d-4efc-b0d2-47e976d42064
+langcode: en
+status: true
+dependencies: {  }
+id: pils
+label: Pils
+traits: {  }
+locked: false
+description: 'Dit is een product van de categorie Pils'
+variationType: pils
+variationTypes:
+  - pils
+multipleVariations: false
+injectVariationFields: false

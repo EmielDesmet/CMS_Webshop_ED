@@ -1,0 +1,24 @@
+uuid: 6b256aee-0fc5-4236-8f5d-5dca1a27beea
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.streekbieren
+    - field.storage.commerce_product.field_prijs
+  module:
+    - commerce_price
+id: commerce_product.streekbieren.field_prijs
+field_name: field_prijs
+entity_type: commerce_product
+bundle: streekbieren
+label: Prijs
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - EUR
+  allow_negative: false
+field_type: commerce_price

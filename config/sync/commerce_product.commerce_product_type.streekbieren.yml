@@ -1,0 +1,14 @@
+uuid: c832c940-9deb-40e3-91ac-8c2fd3472e52
+langcode: en
+status: true
+dependencies: {  }
+id: streekbieren
+label: Streekbieren
+traits: {  }
+locked: false
+description: 'Dit zijn producten die horen onder de categorie Streekbieren'
+variationType: streekbieren
+variationTypes:
+  - streekbieren
+multipleVariations: false
+injectVariationFields: false

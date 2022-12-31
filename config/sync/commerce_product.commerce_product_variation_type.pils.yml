@@ -1,0 +1,10 @@
+uuid: 4526a90b-b402-49d7-80ba-f512c87a0ac7
+langcode: en
+status: true
+dependencies: {  }
+id: pils
+label: Pils
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null
