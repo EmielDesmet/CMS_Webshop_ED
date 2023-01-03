@@ -26,6 +26,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/devel": "^5.1",
         "drupal/facets": "^2.0",
+        "drupal/gutenberg": "^2.6",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/search_api": "^1.28",
         "drush/drush": "^11.4"

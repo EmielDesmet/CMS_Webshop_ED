@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '6d9e00b2663773efe65abf01308b0c416f1db2d5',
+        'reference' => 'b321c54d3e4e8f1777360e94e70e349f1abbe6fd',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -556,6 +556,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/gutenberg' => array(
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'reference' => '8.x-2.6',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gutenberg',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/inline_entity_form' => array(
             'pretty_version' => '1.0.0-rc14',
             'version' => '1.0.0.0-RC14',
@@ -577,7 +586,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '6d9e00b2663773efe65abf01308b0c416f1db2d5',
+            'reference' => 'b321c54d3e4e8f1777360e94e70e349f1abbe6fd',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
