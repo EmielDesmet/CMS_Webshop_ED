@@ -29,6 +29,7 @@
         "drupal/gutenberg": "^2.6",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/search_api": "^1.28",
+        "drupal/views_bootstrap": "^4.4",
         "drush/drush": "^11.4"
     },
     "conflict": {
