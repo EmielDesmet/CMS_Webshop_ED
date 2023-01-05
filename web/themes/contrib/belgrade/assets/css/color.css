@@ -5,6 +5,8 @@
   --primaryColor: #41449f;
   --primaryLight: #babad3;
   --primaryLighter: #e9e9f2;
+  --footer: #ffac00;
+  --header: #ffac00;
 }
 
 /* Background color */
@@ -32,7 +34,7 @@ body,
 
 .navbar-default,
 .footer {
-  background-color: var(--dark)
+  background-color: var(--footer)
 }
 
 /* Primary */
@@ -178,8 +180,9 @@ a:hover,
 [type="radio"]:disabled:checked+span+label:after,
 [type="radio"]:disabled:checked+label:after,
 [type="checkbox"]:disabled:checked+label:after{
-  background-color: var(--primaryLight);
+  background-color: var(--header);
 }
+
 
 [type="radio"]:disabled:not(:checked)+span+label:before,
 [type="radio"]:disabled:not(:checked)+label:before,
