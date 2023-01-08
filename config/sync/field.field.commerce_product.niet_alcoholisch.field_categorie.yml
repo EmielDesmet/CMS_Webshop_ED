@@ -1,0 +1,29 @@
+uuid: cefe7ad7-6852-4fa3-b1e5-e68d4de21621
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.niet_alcoholisch
+    - field.storage.commerce_product.field_categorie
+    - taxonomy.vocabulary.producten
+id: commerce_product.niet_alcoholisch.field_categorie
+field_name: field_categorie
+entity_type: commerce_product
+bundle: niet_alcoholisch
+label: Categorie
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      producten: producten
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

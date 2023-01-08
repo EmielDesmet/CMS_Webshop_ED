@@ -1,25 +1,48 @@
 _core:
   default_config_hash: jAmtwfSVVTtk42kIXLA-a7Jblc-HBdlo9uTbKUp4UkM
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: /cms/webshopDev/web/themes/contrib/commerce_bootstrap/favicon.ico
-  use_default: true
+  mimetype: image/png
+  path: 'public://logo_1_0.png'
+  url: /cms/webshopDev/web/sites/default/files/logo_1_0.png
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://logo_1_1.png'
   url: ''
-  use_default: true
+  use_default: false
 cdn_provider: ''
 navbar_position: static-top
-table_hover: 0
 table_striped: 0
 breadcrumb_home: 1
 schemas:
   bootstrap: 8000
   commerce_bootstrap: 8000
   belgrade: 8000
+table_responsive: '-1'
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+  top_navigation: ''
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset: 'Reset Broken Cache'
+apply: Apply
+reset_http_request_cache: ''
+table: ''
+fluid_container: 1
+table_bordered: 1
+navbar_inverse: 0

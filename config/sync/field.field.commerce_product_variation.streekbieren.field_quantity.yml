@@ -1,0 +1,23 @@
+uuid: a6e181b3-68ae-4d37-be12-bbb2301f7301
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.streekbieren
+    - field.storage.commerce_product_variation.field_quantity
+id: commerce_product_variation.streekbieren.field_quantity
+field_name: field_quantity
+entity_type: commerce_product_variation
+bundle: streekbieren
+label: Quantity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

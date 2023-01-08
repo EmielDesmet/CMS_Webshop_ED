@@ -1,0 +1,22 @@
+uuid: f58ce473-cb36-49a3-b412-3147e56b24a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.producten
+  module:
+    - text
+id: taxonomy_term.producten.default
+targetEntityType: taxonomy_term
+bundle: producten
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

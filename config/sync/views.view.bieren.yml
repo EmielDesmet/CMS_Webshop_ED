@@ -7,7 +7,9 @@ dependencies:
     - field.storage.commerce_product.field_prijs
     - image.style.thumbnail
     - system.menu.main
-    - taxonomy.vocabulary.fabrikanten
+    - taxonomy.vocabulary.producten
+  content:
+    - 'taxonomy_term:producten:d4df442e-bbcb-421f-8174-6f488a4e7edc'
   module:
     - commerce_price
     - commerce_product
@@ -340,35 +342,33 @@ display:
             operator: ''
             operator_limit_selection: false
             operator_list: {  }
-        field_fabrikant1_target_id:
-          id: field_fabrikant1_target_id
-          table: commerce_product__field_fabrikant1
-          field: field_fabrikant1_target_id
+        field_categorie_target_id:
+          id: field_categorie_target_id
+          table: commerce_product__field_categorie
+          field: field_categorie_target_id
           relationship: none
           group_type: group
           admin_label: ''
           plugin_id: taxonomy_index_tid
           operator: or
-          value: {  }
+          value:
+            - 1
           group: 1
-          exposed: true
+          exposed: false
           expose:
-            operator_id: field_fabrikant1_target_id_op
-            label: Fabrikant
+            operator_id: ''
+            label: ''
             description: ''
             use_operator: false
-            operator: field_fabrikant1_target_id_op
+            operator: ''
             operator_limit_selection: false
             operator_list: {  }
-            identifier: field_fabrikant1_target_id
+            identifier: ''
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              content_editor: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -383,9 +383,9 @@ display:
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
-          vid: fabrikanten
-          type: select
-          hierarchy: true
+          vid: producten
+          type: textfield
+          hierarchy: false
           limit: true
           error_message: true
       style:
@@ -409,7 +409,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
         - url.query_args
         - user
       tags:
@@ -427,7 +426,7 @@ display:
         type: normal
         title: Bieren
         description: ''
-        weight: 7
+        weight: -46
         expanded: true
         menu_name: main
         parent: ''
@@ -437,7 +436,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
         - url.query_args
         - user
       tags:

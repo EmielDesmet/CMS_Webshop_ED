@@ -1,0 +1,14 @@
+uuid: d7651e00-ff06-46ea-b87c-9b6da3d0e4ff
+langcode: en
+status: true
+dependencies: {  }
+id: niet_alcoholisch
+label: Niet-Alcoholisch
+traits: {  }
+locked: false
+description: ''
+variationType: niet_alcoholisch
+variationTypes:
+  - niet_alcoholisch
+multipleVariations: false
+injectVariationFields: false

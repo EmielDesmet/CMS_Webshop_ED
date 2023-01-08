@@ -1,0 +1,29 @@
+uuid: 18888861-e94e-49ef-9cfe-75514bae6e5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.wodka
+    - field.storage.commerce_product.field_fabrikant1
+    - taxonomy.vocabulary.fabrikanten
+id: commerce_product.wodka.field_fabrikant1
+field_name: field_fabrikant1
+entity_type: commerce_product
+bundle: wodka
+label: Fabrikant
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fabrikanten: fabrikanten
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: fabrikanten
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: f51fda80-1175-4f8b-b194-5cd6c92cba1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.wodka
+    - field.storage.commerce_product.field_prijs
+  module:
+    - commerce_price
+id: commerce_product.wodka.field_prijs
+field_name: field_prijs
+entity_type: commerce_product
+bundle: wodka
+label: Prijs
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - EUR
+  allow_negative: false
+field_type: commerce_price

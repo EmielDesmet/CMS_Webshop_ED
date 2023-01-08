@@ -1,0 +1,29 @@
+uuid: e18a4eb4-26e4-4d0c-beb6-b88683ea7463
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.footer.body
+    - node.type.footer
+  module:
+    - text
+    - user
+id: node.footer.default
+targetEntityType: node
+bundle: footer
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

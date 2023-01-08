@@ -1,0 +1,14 @@
+uuid: eea8970c-c6d3-478c-b8ad-02bc0b0680a2
+langcode: en
+status: true
+dependencies: {  }
+id: rode_wijnen
+label: 'Rode wijnen'
+traits: {  }
+locked: false
+description: 'Dit is een wijn van categorie Rode wijnen'
+variationType: rode_wijnen
+variationTypes:
+  - rode_wijnen
+multipleVariations: false
+injectVariationFields: false

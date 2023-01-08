@@ -1,0 +1,23 @@
+uuid: 4126769a-ef23-42ef-9540-69a2b3196921
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.niet_alcoholisch
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.niet_alcoholisch.body
+field_name: body
+entity_type: commerce_product
+bundle: niet_alcoholisch
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

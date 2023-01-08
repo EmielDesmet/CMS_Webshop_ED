@@ -1,0 +1,19 @@
+uuid: 1f4766d2-08e8-4f15-a4ff-132e2eeecf0e
+langcode: en
+status: true
+dependencies: {  }
+id: testpaymentgateway
+label: 'Pay by purchase order'
+weight: -10
+plugin: manual
+configuration:
+  display_label: 'Bill me'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: 'Credit approval and valid purchase order number required'
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

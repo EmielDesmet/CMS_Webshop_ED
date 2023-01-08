@@ -1,0 +1,10 @@
+uuid: 2900a5df-435c-4f78-8b88-4a322048b4f7
+langcode: en
+status: true
+dependencies: {  }
+id: witte_wijn
+label: 'Witte wijn'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

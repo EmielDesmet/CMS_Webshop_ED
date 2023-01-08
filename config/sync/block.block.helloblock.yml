@@ -1,0 +1,20 @@
+uuid: 36e10be5-0f72-47c8-88e1-5c8a8a8e53b6
+langcode: en
+status: false
+dependencies:
+  module:
+    - mymodule
+  theme:
+    - belgrade
+id: helloblock
+theme: belgrade
+region: sidebar_first
+weight: 0
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: 'Hello block'
+  label_display: visible
+  provider: mymodule
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: c4ac572b-bf55-418a-b90b-1f2563b7da27
+langcode: en
+status: true
+dependencies: {  }
+id: wodka
+label: Wodka
+traits: {  }
+locked: false
+description: 'een product van categorie Wodka'
+variationType: wodka
+variationTypes:
+  - wodka
+multipleVariations: true
+injectVariationFields: true

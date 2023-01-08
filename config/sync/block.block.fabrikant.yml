@@ -1,0 +1,24 @@
+uuid: a5711bc1-98c8-4658-903b-ddbe8022cfde
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.fabrikant
+  module:
+    - facets
+  theme:
+    - belgrade
+id: fabrikant
+theme: belgrade
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:fabrikant'
+settings:
+  id: 'facet_block:fabrikant'
+  label: Fabrikant
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: fabrikant
+visibility: {  }

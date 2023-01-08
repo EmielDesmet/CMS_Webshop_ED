@@ -20,6 +20,7 @@ module:
   commerce_order: 0
   commerce_payment: 0
   commerce_payment_example: 0
+  commerce_paypal: 0
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
@@ -36,10 +37,16 @@ module:
   editor: 0
   entity: 0
   entity_reference_revisions: 0
+  example_block: 0
+  facets: 0
+  facets_rest: 0
+  facets_searchbox_widget: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  gutenberg: 0
+  gutenberg_cloud: 0
   help: 0
   history: 0
   image: 0
@@ -47,6 +54,7 @@ module:
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  mymodule: 0
   mysql: 0
   node: 0
   options: 0
@@ -54,18 +62,22 @@ module:
   path: 0
   path_alias: 0
   profile: 0
+  rest: 0
   search_api: 0
   search_api_db: 0
+  serialization: 0
   shortcut: 0
   state_machine: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   token: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  views_bootstrap: 0
   views_ui: 0
   views: 10
   standard: 1000

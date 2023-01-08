@@ -1,0 +1,24 @@
+uuid: df7bbb50-d754-485c-b5c5-9a6eb8b2bf70
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.soort
+    - commerce_product.commerce_product_variation_type.rum
+    - field.storage.commerce_product_variation.attribute_soort
+id: commerce_product_variation.rum.attribute_soort
+field_name: attribute_soort
+entity_type: commerce_product_variation
+bundle: rum
+label: Soort
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - soort
+field_type: entity_reference

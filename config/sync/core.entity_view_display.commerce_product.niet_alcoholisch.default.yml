@@ -1,0 +1,97 @@
+uuid: 3df79a60-2a7d-466c-be06-84363132350c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.niet_alcoholisch
+    - field.field.commerce_product.niet_alcoholisch.body
+    - field.field.commerce_product.niet_alcoholisch.field_alcohol_percentage
+    - field.field.commerce_product.niet_alcoholisch.field_categorie
+    - field.field.commerce_product.niet_alcoholisch.field_fabrikant1
+    - field.field.commerce_product.niet_alcoholisch.field_image
+    - field.field.commerce_product.niet_alcoholisch.field_prijs
+  module:
+    - commerce_price
+    - commerce_product
+    - image
+    - text
+id: commerce_product.niet_alcoholisch.default
+targetEntityType: commerce_product
+bundle: niet_alcoholisch
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_alcohol_percentage:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_categorie:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_fabrikant1:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_prijs:
+    type: commerce_price_default
+    label: inline
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  created: true
+  search_api_excerpt: true
+  stores: true
+  uid: true

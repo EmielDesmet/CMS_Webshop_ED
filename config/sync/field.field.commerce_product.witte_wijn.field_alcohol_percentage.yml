@@ -1,0 +1,23 @@
+uuid: 211e1343-b357-49ac-9eb2-1a219c394bce
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.witte_wijn
+    - field.storage.commerce_product.field_alcohol_percentage
+id: commerce_product.witte_wijn.field_alcohol_percentage
+field_name: field_alcohol_percentage
+entity_type: commerce_product
+bundle: witte_wijn
+label: 'Alcohol percentage'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: decimal

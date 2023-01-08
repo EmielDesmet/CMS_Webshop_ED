@@ -1,0 +1,17 @@
+uuid: cc3b9e95-9d4a-4e0f-a013-332d554c0dd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Footer
+type: footer
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

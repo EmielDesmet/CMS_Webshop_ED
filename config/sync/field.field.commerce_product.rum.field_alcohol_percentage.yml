@@ -1,0 +1,23 @@
+uuid: f3f320a3-f3e3-456e-9461-cfbbe7d34c32
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.rum
+    - field.storage.commerce_product.field_alcohol_percentage
+id: commerce_product.rum.field_alcohol_percentage
+field_name: field_alcohol_percentage
+entity_type: commerce_product
+bundle: rum
+label: 'Alcohol percentage'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: decimal

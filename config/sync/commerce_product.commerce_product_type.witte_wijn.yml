@@ -1,0 +1,14 @@
+uuid: d6b1ca52-1e8d-4363-b4c0-eb2edffdf7f7
+langcode: en
+status: true
+dependencies: {  }
+id: witte_wijn
+label: 'Witte wijn'
+traits: {  }
+locked: false
+description: ''
+variationType: witte_wijn
+variationTypes:
+  - witte_wijn
+multipleVariations: false
+injectVariationFields: true

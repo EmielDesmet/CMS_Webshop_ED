@@ -1,0 +1,130 @@
+uuid: ebc69de6-4126-46f5-8657-160ff0d3a1ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.niet_alcoholisch
+    - field.field.commerce_product.niet_alcoholisch.body
+    - field.field.commerce_product.niet_alcoholisch.field_alcohol_percentage
+    - field.field.commerce_product.niet_alcoholisch.field_categorie
+    - field.field.commerce_product.niet_alcoholisch.field_fabrikant1
+    - field.field.commerce_product.niet_alcoholisch.field_image
+    - field.field.commerce_product.niet_alcoholisch.field_prijs
+    - image.style.thumbnail
+  module:
+    - commerce
+    - commerce_price
+    - commerce_product
+    - image
+    - path
+    - text
+id: commerce_product.niet_alcoholisch.default
+targetEntityType: commerce_product
+bundle: niet_alcoholisch
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alcohol_percentage:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_categorie:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fabrikant1:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_prijs:
+    type: commerce_price_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  stores:
+    type: commerce_entity_select
+    weight: 10
+    region: content
+    settings:
+      hide_single_entity: true
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  variations:
+    type: commerce_product_single_variation
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -4,7 +4,7 @@ langcode: en
 uuid: c928325b-2a9f-4a73-875c-546ef9805969
 name: Webshop
 mail: info@info.com
-slogan: ''
+slogan: 'Op zoek naar een drankenspecialist in de regio Roeselare? Dranken Jo beschikt over een sprankelend assortiment aperitieven, wijnen, gins, frisdranken,bieren en vele andere lekkers. Laat je verrassen en vraag ons advies.'
 page:
   403: ''
   404: ''
@@ -12,3 +12,4 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: hondhond6969@gmail.com

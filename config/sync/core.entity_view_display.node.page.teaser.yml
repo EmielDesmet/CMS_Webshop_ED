@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
-    - text
+    - gutenberg
     - user
 _core:
   default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
@@ -17,14 +17,18 @@ bundle: page
 mode: teaser
 content:
   body:
-    type: text_summary_or_trimmed
+    type: gutenberg_text
     label: hidden
     settings:
-      trim_length: 600
+      format: gutenberg
+      content_only: true
     third_party_settings: {  }
     weight: 100
     region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  search_api_excerpt: true

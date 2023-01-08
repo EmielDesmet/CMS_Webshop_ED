@@ -1,0 +1,19 @@
+uuid: 67536d9c-e93f-46a6-987b-c4f83c97c8a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.attribute_hoeveelheid
+field_name: attribute_hoeveelheid
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: commerce_product_attribute_value
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

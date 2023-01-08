@@ -1,0 +1,7 @@
+uuid: d43441cb-1cb4-4acc-aa75-75ef245f609f
+langcode: en
+status: true
+dependencies: {  }
+id: hoeveelheid
+label: Hoeveelheid
+elementType: select

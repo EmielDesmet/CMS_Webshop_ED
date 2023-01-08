@@ -1,0 +1,14 @@
+uuid: 5d8771e4-1577-4f7f-a1c1-d40456b2e8ca
+langcode: en
+status: true
+dependencies: {  }
+id: rum
+label: Rum
+traits: {  }
+locked: false
+description: ''
+variationType: rum
+variationTypes:
+  - rum
+multipleVariations: true
+injectVariationFields: true

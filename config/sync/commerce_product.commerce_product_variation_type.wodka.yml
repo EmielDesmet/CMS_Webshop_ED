@@ -1,0 +1,10 @@
+uuid: 35bb93f1-0594-45a2-a4d0-e8118b9827f5
+langcode: en
+status: true
+dependencies: {  }
+id: wodka
+label: Wodka
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

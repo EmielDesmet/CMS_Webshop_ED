@@ -11,6 +11,6 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://0002077_Logo dranken Jo.png'
   url: ''
-  use_default: true
+  use_default: false

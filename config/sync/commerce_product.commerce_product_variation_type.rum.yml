@@ -1,0 +1,10 @@
+uuid: ed49628d-e3d0-49c5-9a23-ef89fa618889
+langcode: en
+status: true
+dependencies: {  }
+id: rum
+label: Rum
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

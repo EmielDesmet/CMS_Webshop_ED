@@ -1,0 +1,24 @@
+uuid: 01f0f593-3eb0-460d-8899-0018dbad4a91
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.witte_wijn
+    - field.storage.commerce_product.field_prijs
+  module:
+    - commerce_price
+id: commerce_product.witte_wijn.field_prijs
+field_name: field_prijs
+entity_type: commerce_product
+bundle: witte_wijn
+label: Prijs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - EUR
+  allow_negative: false
+field_type: commerce_price
